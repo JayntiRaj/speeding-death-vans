@@ -24,3 +24,13 @@ a:hover {
 .m-b-15 {
     margin-bottom: 15px
 }
+
+.homepage {
+    background: url("../img/meAndNeens.JPG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+}
