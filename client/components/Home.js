@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Fab from '@material-ui/core/Fab';
 import FlightIcon from '@material-ui/icons/Flight';
 import {Redirect} from "react-router-dom";
+import TripsList from './TripsList';
 
 class Home extends React.Component {
     constructor(props){
@@ -39,7 +40,7 @@ class Home extends React.Component {
                         </Grid>
                     </Grid>
                     <Grid item xs={6}>
-                        trips
+                        <TripsList/>
                     </Grid>
                 </Grid>
                 {this.state.createTrip && <Redirect push to="/createTrip"/>}
